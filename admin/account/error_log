@@ -1,0 +1,5 @@
+[30-Apr-2025 17:29:59 Africa/Johannesburg] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/storelin/public_html/admin/account/profile.php on line 10
+[30-Apr-2025 17:29:59 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/storelin/public_html/admin/account/profile.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/storelin/public_html/admin/account/profile.php on line 10

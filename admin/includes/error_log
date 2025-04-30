@@ -1,0 +1,32 @@
+[30-Apr-2025 14:35:17 Africa/Johannesburg] PHP Warning:  require_once(../config/database.php): Failed to open stream: No such file or directory in /home/storelin/public_html/admin/includes/authenticate.php on line 6
+[30-Apr-2025 14:35:17 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/storelin/public_html/admin/includes/authenticate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/storelin/public_html/admin/includes/authenticate.php on line 6
+[30-Apr-2025 14:35:21 Africa/Johannesburg] PHP Warning:  require_once(../config/database.php): Failed to open stream: No such file or directory in /home/storelin/public_html/admin/includes/authenticate.php on line 6
+[30-Apr-2025 14:35:21 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/storelin/public_html/admin/includes/authenticate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/storelin/public_html/admin/includes/authenticate.php on line 6
+[30-Apr-2025 14:37:00 Africa/Johannesburg] PHP Warning:  require_once(../config/db_v2.php): Failed to open stream: No such file or directory in /home/storelin/public_html/admin/includes/authenticate.php on line 6
+[30-Apr-2025 14:37:00 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db_v2.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/storelin/public_html/admin/includes/authenticate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/storelin/public_html/admin/includes/authenticate.php on line 6
+[30-Apr-2025 14:37:27 Africa/Johannesburg] PHP Warning:  require_once(../config/db_v2.php): Failed to open stream: No such file or directory in /home/storelin/public_html/admin/includes/authenticate.php on line 10
+[30-Apr-2025 14:37:27 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db_v2.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/storelin/public_html/admin/includes/authenticate.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/storelin/public_html/admin/includes/authenticate.php on line 10
+[30-Apr-2025 14:37:37 Africa/Johannesburg] PHP Warning:  require_once(../configs/db_v2.php): Failed to open stream: No such file or directory in /home/storelin/public_html/admin/includes/authenticate.php on line 10
+[30-Apr-2025 14:37:37 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '../configs/db_v2.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/storelin/public_html/admin/includes/authenticate.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/storelin/public_html/admin/includes/authenticate.php on line 10
+[30-Apr-2025 14:37:48 Africa/Johannesburg] PHP Warning:  Undefined variable $pdo in /home/storelin/public_html/admin/includes/authenticate.php on line 26
+[30-Apr-2025 14:37:48 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/storelin/public_html/admin/includes/authenticate.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/storelin/public_html/admin/includes/authenticate.php on line 26
+[30-Apr-2025 14:38:52 Africa/Johannesburg] Database Connection Error: SQLSTATE[HY000] [1045] Access denied for user 'db_user'@'localhost' (using password: YES)
+[30-Apr-2025 16:03:49 Africa/Johannesburg] Database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'remember_token' in 'SET'
